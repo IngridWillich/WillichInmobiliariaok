@@ -1,0 +1,54 @@
+name: flutter_web
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  provider: ^6.0.0
+  http_parser: ^4.0.2
+  mime_type: ^1.0.0
+  icons_plus: ^4.0.0
+  flutter_feather_icons: ^2.0.0
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.1.7  # Usé la versión más reciente que tenías
+  flutter_secure_storage: ^9.2.4
+  shared_preferences: ^2.5.2
+  auth0_flutter: ^1.8.0
+  carousel_slider: ^4.0.0
+  google_maps_flutter: ^2.0.0
+  font_awesome_flutter: ^10.5.0
+  cloud_firestore: ^4.15.5
+  path_provider: ^2.0.15
+  image_picker: ^1.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logito.png
+    - assets/carr 3.jpg
+    - assets/carr 7.jpg
+    - assets/carr 8.jpeg
+    - assets/logo1.png
+    - assets/rocioperfil.jpeg
+    - assets/tercera.jpeg
+    - assets/lindas.jpeg
+    - assets/tambien.jpeg
+    - assets/carr 3.jpg
+    - assets/jsjs.jpeg
+    - assets/carr 7.jpg
+    - assets/carr 8.jpeg
+    - assets/clientes1.jpeg
+    - assets/clientes2.jpeg
+    - assets/clientes3.jpeg
+    

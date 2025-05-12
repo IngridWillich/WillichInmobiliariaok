@@ -1,0 +1,10 @@
+# Node / Flutter / Dart
+node_modules/
+build/
+.dart_tool/
+packages/
+.idea/
+pubspec.lock
+.env
+*.log
+.DS_Store
