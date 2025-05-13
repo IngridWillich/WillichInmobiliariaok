@@ -1,10 +1,37 @@
-# Node / Flutter / Dart
+# Node
 node_modules/
+.next/
+dist/
 build/
-.dart_tool/
-packages/
-.idea/
-pubspec.lock
 .env
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.idea/
+android/.gradle
+android/app/build
+ios/Pods/
+macos/Pods/
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+*.iml
+*.lock
 *.log
-.DS_Store
+*.metadata
+*.bak
+
+# Git
+*.swp
+*.swo
+*.DS_Store
+*.orig
+*.tmp
+
+# Otros
+*.gz
+*.webp
