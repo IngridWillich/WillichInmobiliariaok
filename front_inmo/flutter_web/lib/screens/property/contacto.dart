@@ -81,7 +81,7 @@ class ContactoPage extends StatelessWidget {
                     Container(
                       width: 80,
                       height: 3,
-                      color: Colors.pink.shade300,
+                       color: Color.fromARGB(255, 202, 121, 148),
                     ),
                     const SizedBox(height: 16),
                     Text(
@@ -113,7 +113,7 @@ class ContactoPage extends StatelessWidget {
 
             // Información de contacto
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 24), // Padding reducido
+              padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 24), 
               color: Colors.white,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -130,7 +130,7 @@ class ContactoPage extends StatelessWidget {
                   Container(
                     width: 60,
                     height: 3,
-                    color: Colors.pink.shade300,
+                    color: Color.fromARGB(255, 202, 121, 148),
                   ),
                   const SizedBox(height: 24),
                   
@@ -159,7 +159,7 @@ class ContactoPage extends StatelessWidget {
                   Container(
                     width: 60,
                     height: 3,
-                    color: Colors.pink.shade300,
+                     color: Color.fromARGB(255, 202, 121, 148),
                   ),
                   const SizedBox(height: 24),
                   

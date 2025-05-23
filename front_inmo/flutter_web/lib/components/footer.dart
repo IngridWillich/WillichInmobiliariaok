@@ -85,7 +85,7 @@ class Footer extends StatelessWidget {
               Container(
                 width: 40,
                 height: 1,
-                color: Colors.pink.shade300,
+                color: Color.fromARGB(255, 202, 121, 148),
               ),
               const SizedBox(height: 8),
               Row(
@@ -119,7 +119,7 @@ class Footer extends StatelessWidget {
         Text(
           title,
           style: TextStyle(
-            color: Colors.pink.shade300,
+            color: Color.fromARGB(255, 202, 121, 148),
             fontSize: 12,
             fontWeight: FontWeight.bold,
           ),

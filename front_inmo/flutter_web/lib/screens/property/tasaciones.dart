@@ -61,7 +61,7 @@ class TasacionesPage extends StatelessWidget {
                     Container(
                       width: 80,
                       height: 3,
-                      color: Colors.pink,
+                       color: Color.fromARGB(255, 202, 121, 148),
                     ),
                     const SizedBox(height: 16),
                     Text(
@@ -226,7 +226,7 @@ class TasacionesPage extends StatelessWidget {
                   Container(
                     width: 60,
                     height: 3,
-                    color: Colors.pink.shade300,
+                     color: Color.fromARGB(255, 202, 121, 148),
                   ),
                   const SizedBox(height: 40),
                   
@@ -259,7 +259,7 @@ class TasacionesPage extends StatelessWidget {
                     child: Container(
                       width: 60,
                       height: 3,
-                      color: Colors.pink.shade300,
+                       color: Color.fromARGB(255, 202, 121, 148),
                     ),
                   ),
                   const SizedBox(height: 24),
@@ -410,7 +410,7 @@ class TasacionesPage extends StatelessWidget {
           Text(
             number,
             style: TextStyle(
-              color: Colors.pink.shade300,
+               color: Color.fromARGB(255, 202, 121, 148),
               fontWeight: FontWeight.bold,
               fontSize: 24,
             ),

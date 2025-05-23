@@ -167,6 +167,7 @@ class _HomePageState extends State<HomePage> {
                             buttonText: "Ver detalles",
                             onButtonClick: () =>
                                 handleCardClick(context, property['id'], properties),
+                                status: property['estado'],
                           );
                         },
                       );

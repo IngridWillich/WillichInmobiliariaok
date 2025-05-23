@@ -248,7 +248,7 @@ class _PropertySearchWidgetState extends State<PropertySearchWidget> {
                         ElevatedButton(
                           onPressed: searchProperties,
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.pink,
+                            backgroundColor:   Color.fromARGB(255, 202, 121, 148),
                             foregroundColor: Colors.white,
                           ),
                           child: const Text('Buscar'),
@@ -298,7 +298,7 @@ class _PropertySearchWidgetState extends State<PropertySearchWidget> {
           alignment: Alignment.centerRight,
           child: TextButton(
             onPressed: clearFilters,
-            child: const Text('Limpiar filtros', style: TextStyle(color: Colors.pink)),
+            child: const Text('Limpiar filtros', style: TextStyle(color:   Color.fromARGB(255, 202, 121, 148))),
           ),
         ),
       ],
@@ -381,7 +381,7 @@ class _PropertySearchWidgetState extends State<PropertySearchWidget> {
               setState(() => propertyType = '');
               searchProperties();
             },
-            deleteIconColor: Colors.pink,
+            deleteIconColor:  Color.fromARGB(255, 202, 121, 148),
             backgroundColor: Colors.pink.shade50,
           ),
         if (_bedroomsController.text.isNotEmpty)
@@ -391,7 +391,7 @@ class _PropertySearchWidgetState extends State<PropertySearchWidget> {
               setState(() => _bedroomsController.clear());
               searchProperties();
             },
-            deleteIconColor: Colors.pink,
+            deleteIconColor:   Color.fromARGB(255, 202, 121, 148),
             backgroundColor: Colors.pink.shade50,
           ),
         if (_bathroomsController.text.isNotEmpty)
@@ -401,7 +401,7 @@ class _PropertySearchWidgetState extends State<PropertySearchWidget> {
               setState(() => _bathroomsController.clear());
               searchProperties();
             },
-            deleteIconColor: Colors.pink,
+            deleteIconColor:  Color.fromARGB(255, 202, 121, 148),
             backgroundColor: Colors.pink.shade50,
           ),
       ],
@@ -434,7 +434,7 @@ class PropertySearchResults extends StatelessWidget {
         padding: EdgeInsets.all(32.0),
         child: Center(
           child: CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.pink),
+            valueColor: AlwaysStoppedAnimation<Color>(Color.fromARGB(255, 202, 121, 148),),
           ),
         ),
       );
@@ -651,7 +651,7 @@ class PropertySearchResults extends StatelessWidget {
                   style: const TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
-                    color: Colors.pink,
+                    color:   Color.fromARGB(255, 202, 121, 148),
                   ),
                 ),
                 
@@ -768,7 +768,7 @@ class PropertySearchResults extends StatelessWidget {
                 style: const TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
-                  color: Colors.pink,
+                  color:   Color.fromARGB(255, 202, 121, 148),
                 ),
               ),
               
@@ -804,7 +804,7 @@ class PropertySearchResults extends StatelessWidget {
   
   Widget _buildFeatureChip(IconData icon, String text) {
     return Chip(
-      avatar: Icon(icon, size: 16, color: Colors.pink),
+      avatar: Icon(icon, size: 16, color:  Color.fromARGB(255, 202, 121, 148),),
       label: Text(text),
       backgroundColor: Colors.grey.shade100,
       visualDensity: VisualDensity.compact,

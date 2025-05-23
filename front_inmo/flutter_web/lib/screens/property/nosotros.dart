@@ -79,7 +79,7 @@ class NosotrosPage extends StatelessWidget {
                     Container(
                       width: 80,
                       height: 3,
-                      color: Colors.pink,
+                       color: Color.fromARGB(255, 202, 121, 148),
                     ),
                     const SizedBox(height: 16),
                     Text(
@@ -128,7 +128,7 @@ class NosotrosPage extends StatelessWidget {
                   Container(
                     width: 60,
                     height: 3,
-                    color: Colors.pink.shade300,
+                     color: Color.fromARGB(255, 202, 121, 148),
                   ),
                   const SizedBox(height: 24),
                   
@@ -166,7 +166,7 @@ class NosotrosPage extends StatelessWidget {
                   Container(
                     width: 60,
                     height: 3,
-                    color: Colors.pink.shade300,
+                     color: Color.fromARGB(255, 202, 121, 148),
                   ),
                   const SizedBox(height: 40),
                   

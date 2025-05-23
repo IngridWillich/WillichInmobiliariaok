@@ -119,7 +119,7 @@ class _VentaPageState extends State<VentaPage> {
                       Container(
                         width: 80,
                         height: 3,
-                        color: Colors.pink.shade300,
+                         color: Color.fromARGB(255, 202, 121, 148),
                       ),
                       const SizedBox(height: 16),
                       Text(
@@ -168,7 +168,7 @@ class _VentaPageState extends State<VentaPage> {
                     Container(
                       width: 60,
                       height: 3,
-                      color: Colors.pink.shade300,
+                       color: Color.fromARGB(255, 202, 121, 148),
                     ),
                     const SizedBox(height: 16),
                     Text(
@@ -352,6 +352,7 @@ class _VentaPageState extends State<VentaPage> {
                             buttonText: "Ver detalles",
                             onButtonClick: () =>
                                 handleCardClick(context, property['id'], properties),
+                              status: property['estado'],
                           ),
                         );
                       },
@@ -383,7 +384,7 @@ class _VentaPageState extends State<VentaPage> {
                       child: Container(
                         width: 60,
                         height: 3,
-                        color: Colors.pink.shade300,
+                        color: Color.fromARGB(255, 202, 121, 148),
                       ),
                     ),
                     const SizedBox(height: 24),

@@ -414,7 +414,7 @@ class _PropertyDetailsPageState extends State<PropertyDetailsPage> {
                         decoration: BoxDecoration(
                           border: Border.all(
                             color: _currentImageIndex == index 
-                                ? Colors.pink 
+                                ?   Color.fromARGB(255, 202, 121, 148)
                                 : Colors.transparent,
                             width: 2,
                           ),
@@ -449,7 +449,7 @@ class _PropertyDetailsPageState extends State<PropertyDetailsPage> {
                     style: const TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Colors.pink,
+                      color: Color.fromARGB(255, 202, 121, 148),
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -551,7 +551,7 @@ class _PropertyDetailsPageState extends State<PropertyDetailsPage> {
                       }
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.pink,
+                      backgroundColor:  Color.fromARGB(255, 202, 121, 148),
                       foregroundColor: Colors.white,
                     ),
                     child: const Text(
@@ -592,7 +592,7 @@ class _PropertyDetailsPageState extends State<PropertyDetailsPage> {
   Widget _buildFeatureColumn(IconData icon, String value, String label) {
     return Column(
       children: [
-        Icon(icon, color: Colors.pink, size: 28),
+        Icon(icon,  color: Color.fromARGB(255, 202, 121, 148), size: 28),
         const SizedBox(height: 8),
         Text(
           value,
